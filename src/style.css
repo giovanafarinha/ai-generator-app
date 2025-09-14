@@ -1,0 +1,58 @@
+.container {
+  max-width: 800px;
+  margin: 120px auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f7f2;
+}
+header {
+  text-align: center;
+  color: rgb(214, 134, 153);
+  line-height: 1.5;
+}
+form {
+  padding: 30px;
+  background-color: #f5efe6;
+  border-radius: 10px;
+}
+.text-bar {
+  padding: 15px;
+  border-radius: 16px;
+  color: gray;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  width: 80%;
+  line-height: 1.5;
+  border: 1px solid #f7ced8;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+}
+#submit-button {
+  padding: 15px;
+  border-radius: 10px;
+  color: #f7ced8;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+}
+a {
+  color: #f7ced8;
+}
+.ai-answer {
+  padding: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5efe6;
+  border-radius: 10px;
+  border-left: 5px solid #f7ced8;
+  font-weight: 100;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+}
