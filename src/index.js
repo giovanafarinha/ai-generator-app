@@ -21,6 +21,10 @@ function generating(event) {
   console.log(`Prompt: ${prompt}`);
   console.log(`Context: ${context}`);
 
+  let responseElement = document.querySelector("#ai-answer");
+  responseElement.classList.remove("hidden");
+  responseElement.innerHTML = `<div class="generating">⏳ Providing the best definition of "${instructionInput.value}" </div>`;
+
   axios.get(apiUrl).then(displayGeneratedAnswer);
 }
 let generatingFormElement = document.querySelector("#generatorForm");

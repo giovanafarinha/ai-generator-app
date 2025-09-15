@@ -4,6 +4,10 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 body {
   background-color: #799eff;
 }
@@ -68,4 +72,19 @@ footer {
   text-align: center;
   color: white;
   font-size: 15px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
