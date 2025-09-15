@@ -5,12 +5,13 @@
     <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <title>AI Dictionary</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to a AI Dictionary</h1>
+        <h1>Welcome to an AI Dictionary</h1>
       </header>
       <main>
         <form id="generatorForm">
@@ -20,6 +21,7 @@
             autofocus
             required
             class="text-bar"
+            id="instruction"
           />
 
           <input type="submit" id="submit-button" />

@@ -5,57 +5,67 @@
 }
 
 body {
-  background-color: #f9f7f2;
+  background-color: #799eff;
 }
 header {
   text-align: center;
-  color: rgb(214, 134, 153) "";
+  color: white;
   line-height: 1.5;
+  font-size: 25px;
+  letter-spacing: -4px;
 }
 form {
-  padding: 30px;
-  background-color: #f5efe6;
+  padding: 25px;
+  background-color: white;
   border-radius: 10px;
+  box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.2);
 }
 .text-bar {
   padding: 15px;
   border-radius: 16px;
-  color: gray;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
   text-align: center;
   width: 80%;
   line-height: 1.5;
-  border: 1px solid #f7ced8;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+  border: 1px solid #799eff;
+  box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.2);
 }
 #submit-button {
   padding: 15px;
-  border-radius: 10px;
-  color: #f7ced8;
+  border-radius: 15px;
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   border: none;
-  background-color: white;
-  font-weight: 600;
+  background-color: #799eff;
+  font-weight: 300;
 }
 #submit-button:hover {
-  color: blue;
+  color: #799eff;
+  background-color: white;
+  transform: scale(1.09, 1);
+  transition: all 200ms;
+  border: 2px solid #799eff;
 }
 a {
-  color: #f7ced8;
+  color: white;
 }
 #ai-answer {
   padding: 40px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #f5efe6;
+  background-color: white;
   border-radius: 10px;
-  border-left: 5px solid #f7ced8;
+  border-top: 10px solid #fdf5aa;
   font-weight: 100;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
   margin-bottom: 30px;
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 footer {
   text-align: center;
+  color: white;
+  font-size: 15px;
 }
